@@ -31,6 +31,7 @@ Quickly design and customize responsive mobile-first sites with MoonHare, modern
 Get started with MoonHare.CSS, Framework for building responsive, mobile-first sites, with jsDelivr and a [template starter page](#starter-template).
 Looking to quickly add MoonHare.CSS to your project? Use jsDelivr, a free open source CDN. Using a package manager or need to download the source files? [Head to the releases page](https://github.com/MoonHareLabs/MoonHare/releases).
 
+- [![](https://data.jsdelivr.com/v1/package/npm/moonhare/badge)](https://www.jsdelivr.com/package/npm/moonhare)
 
 ### Installation
 Copy-paste the stylesheet  `<link>`  into your  `<head>`  before all other stylesheets to load our CSS.
