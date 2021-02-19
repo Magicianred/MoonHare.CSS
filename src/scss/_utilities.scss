@@ -591,7 +591,7 @@ $utilities: map-merge(
     "font-family": (
       responsive: true,
       includes: (
-        max-height: map-values($font-family),
+        font-family: map-values($font-family),
       ),
       class: font,
       keys: map-keys($font-family),
@@ -599,7 +599,7 @@ $utilities: map-merge(
     "font-size": (
       responsive: true,
       includes: (
-        max-height: map-values($font-size),
+        font-size: map-values($font-size),
       ),
       class: font,
       keys: map-keys($font-size),
@@ -609,8 +609,24 @@ $utilities: map-merge(
       includes: (
         font-style: normal italic oblique,
       ),
-      class: null,
+      class: font,
       keys: font-normal italic oblique,
+    ),
+    "font-weight": (
+      responsive: true,
+      includes: (
+        font-weight: map-values($font-weight),
+      ),
+      class: font,
+      keys: map-keys($font-weight),
+    ),
+    "font-varient-numeric": (
+      responsive: true,
+      includes: (
+        font-varient-numeric: normal ordinal slashed-zero lining-nums oldstyle-nums proportional-nums tabular-nums diagonal-fractions stacked-fractions,
+      ),
+      class: font,
+      keys: normal-nums ordinal slashed-zero lining-nums oldstyle-nums proportional-nums tabular-nums diagonal-fractions stacked-fractions,
     ),
 
   ),
