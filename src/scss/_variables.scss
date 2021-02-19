@@ -675,6 +675,20 @@ $font-size: (
   9xl: 8rem,
 ) !default;
 
+$font-weight: (
+  thin: 100,
+  extralight: 200,
+  light: 300,
+  normal: 400,
+  medium: 500,
+  semibold: 600,
+  bold: 700,
+  extrabold: 800,
+  black: 900,
+) !default;
+
+
+
 $border-width:                1px !default;
 $border-widths: (
   0: 0,
