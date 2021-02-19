@@ -587,6 +587,32 @@ $utilities: map-merge(
       keys: map-keys($max-height),
     ),
 
+    // Typography
+    "font-family": (
+      responsive: true,
+      includes: (
+        max-height: map-values($font-family),
+      ),
+      class: font,
+      keys: map-keys($font-family),
+    ),
+    "font-size": (
+      responsive: true,
+      includes: (
+        max-height: map-values($font-size),
+      ),
+      class: font,
+      keys: map-keys($font-size),
+    ),
+    "font-style": (
+      responsive: true,
+      includes: (
+        font-style: normal italic oblique,
+      ),
+      class: null,
+      keys: font-normal italic oblique,
+    ),
+
   ),
   $utilities
 );
